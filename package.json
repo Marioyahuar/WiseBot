@@ -1,0 +1,25 @@
+{
+  "name": "wisebot",
+  "version": "1.0.0",
+  "description": "he knows everything about programming",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marioyahuar/WiseBot.git"
+  },
+  "author": "Mario Yahuarcani Salinas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marioyahuar/WiseBot/issues"
+  },
+  "homepage": "https://github.com/Marioyahuar/WiseBot#readme",
+  "dependencies": {
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
