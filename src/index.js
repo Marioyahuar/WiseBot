@@ -17,7 +17,7 @@ client.on("ready", () => {
 });
 
 client.on(Events.MessageCreate, async (message) => {
-  if (message.content.substring(0, 1) === "¡") {
+  if (message.content.substring(0, 1) === "!") {
     const prompt = message.content.substring(1); //remove the exclamation mark from the message
     const answer = await generator.askMeAnything(prompt); //prompt GPT-3
     client.channels
